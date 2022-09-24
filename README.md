@@ -75,22 +75,22 @@ From our previous work with other functions, we have been able to determine that
 
 We first execute the cross stitch pattern with k = 4, color and no background color.
 <img src="images/img_12.png">
-
-Here is what the black and white version of the same output would look like. This is with k = 4, black & white, and no background color.
-
-
 <img src="images/img_13.png">
 
-From our first output, we can see that the red color is the background color of this image. Here is what the output would look like if we wanted to remove this red background color from the cross stitch. This is with k = 4, color, and red background color.
+Here is what the black and white version of the same output would look like. This is with k = 4, black & white, and no background color.
 
 <img src="images/img_14.png">
 <img src="images/img_15.png">
 
-
-Lastly, here is what the cross stitch would look like with k = 4, black & white, removal of the red background color.
+From our first output, we can see that the red color is the background color of this image. Here is what the output would look like if we wanted to remove this red background color from the cross stitch. This is with k = 4, color, and red background color.
 
 <img src="images/img_16.png">
 <img src="images/img_17.png">
+
+Lastly, here is what the cross stitch would look like with k = 4, black & white, removal of the red background color.
+
+<img src="images/img_18.png">
+<img src="images/img_19.png">
 
 All these different cross stitches would be useful in different situations. Hopefully this vignette was able to help you go through the basic necessary steps to execute a meaning image k-means clustering task.
 
