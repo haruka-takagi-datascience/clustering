@@ -89,7 +89,7 @@ From our first output, we can see that the red color is the background color of 
 
 Lastly, here is what the cross stitch would look like with k = 4, black & white, removal of the red background color.
 
-<img src="images/img_18.png">
+<img src="images/img_16.png">
 <img src="images/img_19.png">
 
 All these different cross stitches would be useful in different situations. Hopefully this vignette was able to help you go through the basic necessary steps to execute a meaning image k-means clustering task.
