@@ -92,7 +92,7 @@ Lastly, here is what the cross stitch would look like with k = 4, black & white,
 <img src="images/img_18.png">
 <img src="images/img_19.png">
 
-All these different cross stitches would be useful in different situations. Hopefully this vignette was able to help you go through the basic necessary steps to execute a meaning image k-means clustering task.
+All these different cross stitches would be useful in different situations. Hopefully this vignette was able to help you go through the basic necessary steps to execute a meaning image k-means clustering task. Thank you for reading!
 
 
 
