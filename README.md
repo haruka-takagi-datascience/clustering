@@ -15,8 +15,8 @@ In the case below, we have set the working directory and have inputted the image
 
 The second input to the process_image() function is the k value. This numerical value is the number of centres in the clustering. To determine this value, have a look at the image that is being inputted and count the general number of colors that exist in the image. We will be determining the most optimal k value with later functions, but this is a good way to start off the clustering process.
 
-<img src="images/img_3.png">
-<img src="images/img_4.png">
+<img src="images/img_3.png" width="70%" height="70%">
+<img src="images/img_4.png" width="70%" height="70%">
 
 The output from process_image() consists of the kmeans clustering data on the input image, as a list. This includes the original output of the kclust calls, data on the tidied clusters, their associated RGB value and their nearest DMC thread color information; detailing their name, hex and dmc RGB values as well. The best way to get understand this output is to have a look around with View(cluster_info).
 
@@ -27,9 +27,9 @@ When executing the process_image() function we manually determined a k-value we 
 
 The only input to the scree_plot() function is the cluster_info variable from the process_image() function. The output is executed below.
 
-<img src="images/img_5.png">
-<img src="images/img_6.png">
-<img src="images/img_7.png">
+<img src="images/img_5.png" width="70%" height="70%">
+<img src="images/img_6.png" width="60%" height="60%">
+<img src="images/img_7.png" width="60%" height="60%">
 
 The first scree plot shows the relationship between the total within-cluster sum of squares according to the k-value. It shows how within-cluster scatter decreases as the k-value (number of clusters) increases. As the number of clusters increases the clusters become smaller, and become more compact. However, having too many cluster centers will not be very helpful in getting general image clustering; hence this choice of k is based on the principle of diminishing marginal returns. In the case above, it is difficult to see whether or not 3 or 4 is the best choice.
 
@@ -42,8 +42,8 @@ But it is still difficult to know whether the colors that have been extracted by
 
 The output is executed below.
 
-<img src="images/img_8.png">
-<img src="images/img_9.png">
+<img src="images/img_8.png" width="70%" height="70%">
+<img src="images/img_9.png" width="60%" height="60%">
 
 It is a noteworthy point that the output above has 4 colors, because we have executed the process_image() function with k = 4. In the event that by execution of the scree_plot() function, we were able determine a different optimal k-value, it is most advisable to re-run the process_image() function with the most optimal k-value. Then come back and execute the color_strip() function once more for a final check.
 
@@ -51,8 +51,8 @@ Even though in our case, k = 4 has been deemed the most optimal k-value, we will
 
 We will execute process_image() and color_strips() where k is equal to 7. The output is shown below.
 
-<img src="images/img_10.png">
-<img src="images/img_11.png">
+<img src="images/img_10.png" width="70%" height="70%">
+<img src="images/img_11.png" width="60%" height="60%">
 
 As you can see there are now 7 colors shown in the grid outputted from color_strips(). We can observed that out of these colors, (#291B18 & #100907), (#F4D6CB & AF948B) and (#DC3534 & #823635) are quite similar to each other. We can also observe that by looking at the original image, that some of these colors do not appear very much in the image or at all.
 
@@ -74,23 +74,23 @@ The fifth and last input to the function is the background_color. This is either
 From our previous work with other functions, we have been able to determine that k = 4 is the most optimal k value. We will choose a x-size value of 75, so we can clearly see the cross stitch pattern.
 
 We first execute the cross stitch pattern with k = 4, color and no background color.
-<img src="images/img_12.png">
-<img src="images/img_13.png">
+<img src="images/img_12.png" width="70%" height="70%">
+<img src="images/img_13.png" width="60%" height="60%">
 
 Here is what the black and white version of the same output would look like. This is with k = 4, black & white, and no background color.
 
-<img src="images/img_14.png">
-<img src="images/img_15.png">
+<img src="images/img_14.png" width="70%" height="70%">
+<img src="images/img_15.png" width="60%" height="60%">
 
 From our first output, we can see that the red color is the background color of this image. Here is what the output would look like if we wanted to remove this red background color from the cross stitch. This is with k = 4, color, and red background color.
 
-<img src="images/img_16.png">
-<img src="images/img_17.png">
+<img src="images/img_16.png" width="70%" height="70%">
+<img src="images/img_17.png" width="60%" height="60%">
 
 Lastly, here is what the cross stitch would look like with k = 4, black & white, removal of the red background color.
 
-<img src="images/img_18.png">
-<img src="images/img_19.png">
+<img src="images/img_18.png" width="70%" height="70%">
+<img src="images/img_19.png" width="60%" height="60%">
 
 All these different cross stitches would be useful in different situations. Hopefully this vignette was able to help you go through the basic necessary steps to execute a meaning image k-means clustering task. Thank you for reading!
 
