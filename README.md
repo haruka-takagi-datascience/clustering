@@ -43,7 +43,7 @@ But it is still difficult to know whether the colors that have been extracted by
 The output is executed below.
 
 <img src="images/img_8.png" width="70%" height="70%">
-<img src="images/img_9.png" width="60%" height="60%">
+<img src="images/img_9.png" width="70%" height="70%">
 
 It is a noteworthy point that the output above has 4 colors, because we have executed the process_image() function with k = 4. In the event that by execution of the scree_plot() function, we were able determine a different optimal k-value, it is most advisable to re-run the process_image() function with the most optimal k-value. Then come back and execute the color_strip() function once more for a final check.
 
@@ -52,7 +52,7 @@ Even though in our case, k = 4 has been deemed the most optimal k-value, we will
 We will execute process_image() and color_strips() where k is equal to 7. The output is shown below.
 
 <img src="images/img_10.png" width="70%" height="70%">
-<img src="images/img_11.png" width="60%" height="60%">
+<img src="images/img_11.png" width="70%" height="70%">
 
 As you can see there are now 7 colors shown in the grid outputted from color_strips(). We can observed that out of these colors, (#291B18 & #100907), (#F4D6CB & AF948B) and (#DC3534 & #823635) are quite similar to each other. We can also observe that by looking at the original image, that some of these colors do not appear very much in the image or at all.
 
