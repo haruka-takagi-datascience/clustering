@@ -2,6 +2,8 @@
 
 This vignette covers the functions, process_image(), scree_plot(), color_strips() and make_pattern(), these functions can be used to execute kmeans clustering on images in a streamlined workflow. These functionalities are built on top of several R packages such as tidymodels, scales, cowplot, imager, tidyverse and dmc. It is strongly recommended to read the vignettes on all four functions to fully understand how the kmeans image clustering works, as these functions are meant to be used somewhat in order of each other.
 
+[To see the script of each function please have a look at it here!](https://github.com/haruka-takagi-datascience/unsupervised_ml/blob/main/functions.R)
+
 We will be processing this Andy Warhol art piece shown below.
 <img src="images/img_1.png" width="70%" height="70%">
 <img src="images/img_2.png" width="60%" height="60%">
